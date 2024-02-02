@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.47/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.12.47","repo":"aaliyahsorto/mockpt"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.47/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.0","target":"arcade","targetVersion":"1.12.47","repo":"aaliyahsorto/mockpt"}
 // total=2110299 new=6.66% cached=88.15% other=5.18%
 (function (ectx) {
 'use strict';
@@ -618,7 +618,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P54293(s) {
+function _main___P54518(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1283,13 +1283,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P54293.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-story/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P54293.continuations = [  ]
+_main___P54518.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-story/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P54518.continuations = [  ]
 
-function _main___P54293_mk(s) {
+function _main___P54518_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P54293, depth: s.depth + 1,
+        parent: s, fn: _main___P54518, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3275,8 +3275,8 @@ switch (step) {
   case 0:
 
     s.value___35127 = undefined;
-    s.unnamed270___U1 = undefined;
-    s.unnamed271___U2 = undefined;
+    s.unnamed306___U1 = undefined;
+    s.unnamed307___U2 = undefined;
     s.value___35127 = (undefined);
     s.tmp_0 = tiles_getTilesByType__P30160_mk(s);
     s.tmp_1 = helpers_getTileByName__P30723_mk(s);
@@ -3288,15 +3288,15 @@ switch (step) {
     s.callLocIdx = 89; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    s.unnamed270___U1 = (r0);
-    s.unnamed271___U2 = (0);
+    s.unnamed306___U1 = (r0);
+    s.unnamed307___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed271___U2;
-    r0 = pxsim_Array__length(s.unnamed270___U1);
+    s.tmp_0 = r0 = s.unnamed307___U2;
+    r0 = pxsim_Array__length(s.unnamed306___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed270___U1, s.unnamed271___U2);
+    r0 = pxsim_Array__getAt(s.unnamed306___U1, s.unnamed307___U2);
     s.value___35127 = (r0);
     s.tmp_2 = sprites_create__P29660_mk(s);
     r0 = pxsim.image.ofBuffer(_hex35136);
@@ -3312,11 +3312,11 @@ switch (step) {
     s.callLocIdx = 91; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    r0 = (s.unnamed271___U2 + 1);
-    s.unnamed271___U2 = (r0);
+    r0 = (s.unnamed307___U2 + 1);
+    s.unnamed307___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed270___U1 = (undefined);
+    s.unnamed306___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -3332,8 +3332,8 @@ function pointsthing__P32122_mk(s) {
   tmp_1: undefined,
   tmp_2: undefined,
   value___35127: undefined,
-  unnamed270___U1: undefined,
-  unnamed271___U2: undefined,
+  unnamed306___U1: undefined,
+  unnamed307___U2: undefined,
 } }
 
 const _hex35136 = pxsim.BufferMethods.createBufferFromHex("8704100010000000440bb0cccc00000054b44bdd44cc000054555d45d5440c004055555555d5c400405155554555440c545555555d454d0c54115555d55544cb5411555555dd44c454515555554d44c454555555554d44c44015555555d544cb4015515555554dcb0054115555555db400405515555555b50000445555455d440000004444cb4c04")
@@ -70787,5 +70787,5 @@ const sprites_BaseSpriteSayRenderer__C29644_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___32138","tile1___32139","tile2___32140","tile3___32141","tile4___32142","setcurrentilemap___32134","P1___32136","numberoftilemaps___32135","list___32133","enemy1___32131","e3___32130","e2___32129","e4___32128","e5___32127","thing4pts___32132"])
 
-return _main___P54293
+return _main___P54518
 })
